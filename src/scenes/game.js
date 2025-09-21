@@ -10,7 +10,7 @@ export default function game() {
   const citySfx = k.play("city", { volume: 0.2, loop: true });
   
   // Set gravity for the game environment
-  k.setGravity(5100); /// ПАРАМЕЕЕЕЕТР ГРАФИТАЦИИИИ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ!
+  k.setGravity(7100); /// ПАРАМЕЕЕЕЕТР ГРАФИТАЦИИИИ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ!
 
   // Define background pieces and their initial positions for the scrolling effect
   const bgPieceWidth = 1920;
@@ -50,7 +50,7 @@ export default function game() {
 
   // Initialize score text and variable
   const scoreText = k.add([
-    k.text("score : 0", { font: "mania", size: 64 }),
+    k.text("SCORE : 0", { font: "mania", size: 64 }),
     k.pos(20, 20),
   ]);
   let score = 0;
